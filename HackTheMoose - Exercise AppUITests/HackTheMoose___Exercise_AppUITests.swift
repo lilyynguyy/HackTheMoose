@@ -1,13 +1,8 @@
-//
-//  BodyTrackingExerciseUITests.swift
-//  BodyTrackingExerciseUITests
-//
-//  Created by Kevin Tun on 7/10/24.
-//
+//___FILEHEADER___
 
 import XCTest
 
-final class BodyTrackingExerciseUITests: XCTestCase {
+final class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

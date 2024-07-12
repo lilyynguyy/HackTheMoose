@@ -1,13 +1,8 @@
-//
-//  BodyTrackingExerciseUITestsLaunchTests.swift
-//  BodyTrackingExerciseUITests
-//
-//  Created by Kevin Tun on 7/10/24.
-//
+//___FILEHEADER___
 
 import XCTest
 
-final class BodyTrackingExerciseUITestsLaunchTests: XCTestCase {
+final class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

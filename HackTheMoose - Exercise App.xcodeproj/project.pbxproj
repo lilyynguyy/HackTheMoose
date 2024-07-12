@@ -7,67 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEB6B7632C3EFFA500EDE285 /* BodyTrackingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B7622C3EFFA500EDE285 /* BodyTrackingExerciseApp.swift */; };
-		DEB6B7652C3EFFA500EDE285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B7642C3EFFA500EDE285 /* ContentView.swift */; };
-		DEB6B7672C3EFFA600EDE285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB6B7662C3EFFA600EDE285 /* Assets.xcassets */; };
-		DEB6B76A2C3EFFA600EDE285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB6B7692C3EFFA600EDE285 /* Preview Assets.xcassets */; };
-		DEB6B7742C3EFFA700EDE285 /* BodyTrackingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B7732C3EFFA700EDE285 /* BodyTrackingExerciseTests.swift */; };
-		DEB6B77E2C3EFFA700EDE285 /* BodyTrackingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B77D2C3EFFA700EDE285 /* BodyTrackingExerciseUITests.swift */; };
-		DEB6B7802C3EFFA700EDE285 /* BodyTrackingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B77F2C3EFFA700EDE285 /* BodyTrackingExerciseUITestsLaunchTests.swift */; };
-		DEB6B78D2C3F01CA00EDE285 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B78C2C3F01CA00EDE285 /* ARViewContainer.swift */; };
-		DEB6B78F2C3F08A100EDE285 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B78E2C3F08A100EDE285 /* SkeletonJoint.swift */; };
-		DEB6B7912C3F08E100EDE285 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6B7902C3F08E100EDE285 /* SkeletonBone.swift */; };
+		DEFB84062C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */; };
+		DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84072C40D6ED002BFB7E /* ContentView.swift */; };
+		DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB84092C40D6EE002BFB7E /* Assets.xcassets */; };
+		DEFB840D2C40D6EE002BFB7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */; };
+		DEFB84172C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84162C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift */; };
+		DEFB84212C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84202C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift */; };
+		DEFB84232C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84222C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DEB6B7702C3EFFA700EDE285 /* PBXContainerItemProxy */ = {
+		DEFB84132C40D6EF002BFB7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DEB6B7572C3EFFA500EDE285 /* Project object */;
+			containerPortal = DEFB83FA2C40D6ED002BFB7E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEB6B75E2C3EFFA500EDE285;
-			remoteInfo = BodyTrackingExercise;
+			remoteGlobalIDString = DEFB84012C40D6ED002BFB7E;
+			remoteInfo = "HackTheMoose - Exercise App";
 		};
-		DEB6B77A2C3EFFA700EDE285 /* PBXContainerItemProxy */ = {
+		DEFB841D2C40D6EF002BFB7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DEB6B7572C3EFFA500EDE285 /* Project object */;
+			containerPortal = DEFB83FA2C40D6ED002BFB7E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEB6B75E2C3EFFA500EDE285;
-			remoteInfo = BodyTrackingExercise;
+			remoteGlobalIDString = DEFB84012C40D6ED002BFB7E;
+			remoteInfo = "HackTheMoose - Exercise App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DEB6B75F2C3EFFA500EDE285 /* BodyTrackingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyTrackingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB6B7622C3EFFA500EDE285 /* BodyTrackingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingExerciseApp.swift; sourceTree = "<group>"; };
-		DEB6B7642C3EFFA500EDE285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DEB6B7662C3EFFA600EDE285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEB6B7692C3EFFA600EDE285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEB6B76F2C3EFFA700EDE285 /* BodyTrackingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyTrackingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB6B7732C3EFFA700EDE285 /* BodyTrackingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingExerciseTests.swift; sourceTree = "<group>"; };
-		DEB6B7792C3EFFA700EDE285 /* BodyTrackingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyTrackingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB6B77D2C3EFFA700EDE285 /* BodyTrackingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingExerciseUITests.swift; sourceTree = "<group>"; };
-		DEB6B77F2C3EFFA700EDE285 /* BodyTrackingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DEB6B78C2C3F01CA00EDE285 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
-		DEB6B78E2C3F08A100EDE285 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
-		DEB6B7902C3F08E100EDE285 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackTheMoose - Exercise App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppApp.swift"; sourceTree = "<group>"; };
+		DEFB84072C40D6ED002BFB7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEFB84092C40D6EE002BFB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackTheMoose - Exercise AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB84162C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppTests.swift"; sourceTree = "<group>"; };
+		DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackTheMoose - Exercise AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB84202C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppUITests.swift"; sourceTree = "<group>"; };
+		DEFB84222C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEB6B75C2C3EFFA500EDE285 /* Frameworks */ = {
+		DEFB83FF2C40D6ED002BFB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B76C2C3EFFA700EDE285 /* Frameworks */ = {
+		DEFB840F2C40D6EF002BFB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B7762C3EFFA700EDE285 /* Frameworks */ = {
+		DEFB84192C40D6EF002BFB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,145 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEB6B7562C3EFFA500EDE285 = {
+		DEFB83F92C40D6ED002BFB7E = {
 			isa = PBXGroup;
 			children = (
-				DEB6B7612C3EFFA500EDE285 /* BodyTrackingExercise */,
-				DEB6B7722C3EFFA700EDE285 /* BodyTrackingExerciseTests */,
-				DEB6B77C2C3EFFA700EDE285 /* BodyTrackingExerciseUITests */,
-				DEB6B7602C3EFFA500EDE285 /* Products */,
+				DEFB84042C40D6ED002BFB7E /* HackTheMoose - Exercise App */,
+				DEFB84152C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */,
+				DEFB841F2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */,
+				DEFB84032C40D6ED002BFB7E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEB6B7602C3EFFA500EDE285 /* Products */ = {
+		DEFB84032C40D6ED002BFB7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6B75F2C3EFFA500EDE285 /* BodyTrackingExercise.app */,
-				DEB6B76F2C3EFFA700EDE285 /* BodyTrackingExerciseTests.xctest */,
-				DEB6B7792C3EFFA700EDE285 /* BodyTrackingExerciseUITests.xctest */,
+				DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */,
+				DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */,
+				DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEB6B7612C3EFFA500EDE285 /* BodyTrackingExercise */ = {
+		DEFB84042C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6B7622C3EFFA500EDE285 /* BodyTrackingExerciseApp.swift */,
-				DEB6B7642C3EFFA500EDE285 /* ContentView.swift */,
-				DEB6B7662C3EFFA600EDE285 /* Assets.xcassets */,
-				DEB6B7682C3EFFA600EDE285 /* Preview Content */,
-				DEB6B78C2C3F01CA00EDE285 /* ARViewContainer.swift */,
-				DEB6B78E2C3F08A100EDE285 /* SkeletonJoint.swift */,
-				DEB6B7902C3F08E100EDE285 /* SkeletonBone.swift */,
+				DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */,
+				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
+				DEFB84092C40D6EE002BFB7E /* Assets.xcassets */,
+				DEFB840B2C40D6EE002BFB7E /* Preview Content */,
 			);
-			path = BodyTrackingExercise;
+			path = "HackTheMoose - Exercise App";
 			sourceTree = "<group>";
 		};
-		DEB6B7682C3EFFA600EDE285 /* Preview Content */ = {
+		DEFB840B2C40D6EE002BFB7E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6B7692C3EFFA600EDE285 /* Preview Assets.xcassets */,
+				DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DEB6B7722C3EFFA700EDE285 /* BodyTrackingExerciseTests */ = {
+		DEFB84152C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6B7732C3EFFA700EDE285 /* BodyTrackingExerciseTests.swift */,
+				DEFB84162C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift */,
 			);
-			path = BodyTrackingExerciseTests;
+			path = "HackTheMoose - Exercise AppTests";
 			sourceTree = "<group>";
 		};
-		DEB6B77C2C3EFFA700EDE285 /* BodyTrackingExerciseUITests */ = {
+		DEFB841F2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DEB6B77D2C3EFFA700EDE285 /* BodyTrackingExerciseUITests.swift */,
-				DEB6B77F2C3EFFA700EDE285 /* BodyTrackingExerciseUITestsLaunchTests.swift */,
+				DEFB84202C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift */,
+				DEFB84222C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift */,
 			);
-			path = BodyTrackingExerciseUITests;
+			path = "HackTheMoose - Exercise AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEB6B75E2C3EFFA500EDE285 /* BodyTrackingExercise */ = {
+		DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEB6B7832C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExercise" */;
+			buildConfigurationList = DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise App" */;
 			buildPhases = (
-				DEB6B75B2C3EFFA500EDE285 /* Sources */,
-				DEB6B75C2C3EFFA500EDE285 /* Frameworks */,
-				DEB6B75D2C3EFFA500EDE285 /* Resources */,
+				DEFB83FE2C40D6ED002BFB7E /* Sources */,
+				DEFB83FF2C40D6ED002BFB7E /* Frameworks */,
+				DEFB84002C40D6ED002BFB7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BodyTrackingExercise;
-			productName = BodyTrackingExercise;
-			productReference = DEB6B75F2C3EFFA500EDE285 /* BodyTrackingExercise.app */;
+			name = "HackTheMoose - Exercise App";
+			productName = "HackTheMoose - Exercise App";
+			productReference = DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEB6B76E2C3EFFA700EDE285 /* BodyTrackingExerciseTests */ = {
+		DEFB84112C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEB6B7862C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExerciseTests" */;
+			buildConfigurationList = DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppTests" */;
 			buildPhases = (
-				DEB6B76B2C3EFFA700EDE285 /* Sources */,
-				DEB6B76C2C3EFFA700EDE285 /* Frameworks */,
-				DEB6B76D2C3EFFA700EDE285 /* Resources */,
+				DEFB840E2C40D6EF002BFB7E /* Sources */,
+				DEFB840F2C40D6EF002BFB7E /* Frameworks */,
+				DEFB84102C40D6EF002BFB7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEB6B7712C3EFFA700EDE285 /* PBXTargetDependency */,
+				DEFB84142C40D6EF002BFB7E /* PBXTargetDependency */,
 			);
-			name = BodyTrackingExerciseTests;
-			productName = BodyTrackingExerciseTests;
-			productReference = DEB6B76F2C3EFFA700EDE285 /* BodyTrackingExerciseTests.xctest */;
+			name = "HackTheMoose - Exercise AppTests";
+			productName = "HackTheMoose - Exercise AppTests";
+			productReference = DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DEB6B7782C3EFFA700EDE285 /* BodyTrackingExerciseUITests */ = {
+		DEFB841B2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEB6B7892C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExerciseUITests" */;
+			buildConfigurationList = DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppUITests" */;
 			buildPhases = (
-				DEB6B7752C3EFFA700EDE285 /* Sources */,
-				DEB6B7762C3EFFA700EDE285 /* Frameworks */,
-				DEB6B7772C3EFFA700EDE285 /* Resources */,
+				DEFB84182C40D6EF002BFB7E /* Sources */,
+				DEFB84192C40D6EF002BFB7E /* Frameworks */,
+				DEFB841A2C40D6EF002BFB7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEB6B77B2C3EFFA700EDE285 /* PBXTargetDependency */,
+				DEFB841E2C40D6EF002BFB7E /* PBXTargetDependency */,
 			);
-			name = BodyTrackingExerciseUITests;
-			productName = BodyTrackingExerciseUITests;
-			productReference = DEB6B7792C3EFFA700EDE285 /* BodyTrackingExerciseUITests.xctest */;
+			name = "HackTheMoose - Exercise AppUITests";
+			productName = "HackTheMoose - Exercise AppUITests";
+			productReference = DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEB6B7572C3EFFA500EDE285 /* Project object */ = {
+		DEFB83FA2C40D6ED002BFB7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					DEB6B75E2C3EFFA500EDE285 = {
+					DEFB84012C40D6ED002BFB7E = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					DEB6B76E2C3EFFA700EDE285 = {
+					DEFB84112C40D6EF002BFB7E = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = DEB6B75E2C3EFFA500EDE285;
+						TestTargetID = DEFB84012C40D6ED002BFB7E;
 					};
-					DEB6B7782C3EFFA700EDE285 = {
+					DEFB841B2C40D6EF002BFB7E = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = DEB6B75E2C3EFFA500EDE285;
+						TestTargetID = DEFB84012C40D6ED002BFB7E;
 					};
 				};
 			};
-			buildConfigurationList = DEB6B75A2C3EFFA500EDE285 /* Build configuration list for PBXProject "BodyTrackingExercise" */;
+			buildConfigurationList = DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose - Exercise App" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = DEB6B7562C3EFFA500EDE285;
-			productRefGroup = DEB6B7602C3EFFA500EDE285 /* Products */;
+			mainGroup = DEFB83F92C40D6ED002BFB7E;
+			productRefGroup = DEFB84032C40D6ED002BFB7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEB6B75E2C3EFFA500EDE285 /* BodyTrackingExercise */,
-				DEB6B76E2C3EFFA700EDE285 /* BodyTrackingExerciseTests */,
-				DEB6B7782C3EFFA700EDE285 /* BodyTrackingExerciseUITests */,
+				DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */,
+				DEFB84112C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */,
+				DEFB841B2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DEB6B75D2C3EFFA500EDE285 /* Resources */ = {
+		DEFB84002C40D6ED002BFB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB6B76A2C3EFFA600EDE285 /* Preview Assets.xcassets in Resources */,
-				DEB6B7672C3EFFA600EDE285 /* Assets.xcassets in Resources */,
+				DEFB840D2C40D6EE002BFB7E /* Preview Assets.xcassets in Resources */,
+				DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B76D2C3EFFA700EDE285 /* Resources */ = {
+		DEFB84102C40D6EF002BFB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B7772C3EFFA700EDE285 /* Resources */ = {
+		DEFB841A2C40D6EF002BFB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,52 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEB6B75B2C3EFFA500EDE285 /* Sources */ = {
+		DEFB83FE2C40D6ED002BFB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB6B7652C3EFFA500EDE285 /* ContentView.swift in Sources */,
-				DEB6B7912C3F08E100EDE285 /* SkeletonBone.swift in Sources */,
-				DEB6B7632C3EFFA500EDE285 /* BodyTrackingExerciseApp.swift in Sources */,
-				DEB6B78D2C3F01CA00EDE285 /* ARViewContainer.swift in Sources */,
-				DEB6B78F2C3F08A100EDE285 /* SkeletonJoint.swift in Sources */,
+				DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */,
+				DEFB84062C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B76B2C3EFFA700EDE285 /* Sources */ = {
+		DEFB840E2C40D6EF002BFB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB6B7742C3EFFA700EDE285 /* BodyTrackingExerciseTests.swift in Sources */,
+				DEFB84172C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEB6B7752C3EFFA700EDE285 /* Sources */ = {
+		DEFB84182C40D6EF002BFB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB6B77E2C3EFFA700EDE285 /* BodyTrackingExerciseUITests.swift in Sources */,
-				DEB6B7802C3EFFA700EDE285 /* BodyTrackingExerciseUITestsLaunchTests.swift in Sources */,
+				DEFB84212C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift in Sources */,
+				DEFB84232C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DEB6B7712C3EFFA700EDE285 /* PBXTargetDependency */ = {
+		DEFB84142C40D6EF002BFB7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEB6B75E2C3EFFA500EDE285 /* BodyTrackingExercise */;
-			targetProxy = DEB6B7702C3EFFA700EDE285 /* PBXContainerItemProxy */;
+			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */;
+			targetProxy = DEFB84132C40D6EF002BFB7E /* PBXContainerItemProxy */;
 		};
-		DEB6B77B2C3EFFA700EDE285 /* PBXTargetDependency */ = {
+		DEFB841E2C40D6EF002BFB7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEB6B75E2C3EFFA500EDE285 /* BodyTrackingExercise */;
-			targetProxy = DEB6B77A2C3EFFA700EDE285 /* PBXContainerItemProxy */;
+			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */;
+			targetProxy = DEFB841D2C40D6EF002BFB7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DEB6B7812C3EFFA700EDE285 /* Debug */ = {
+		DEFB84242C40D6EF002BFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		DEB6B7822C3EFFA700EDE285 /* Release */ = {
+		DEFB84252C40D6EF002BFB7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,18 +414,17 @@
 			};
 			name = Release;
 		};
-		DEB6B7842C3EFFA700EDE285 /* Debug */ = {
+		DEFB84272C40D6EF002BFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BodyTrackingExercise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HackTheMoose - Exercise App/Preview Content\"";
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Ur camera is needed cause we gotta see u pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,18 +443,17 @@
 			};
 			name = Debug;
 		};
-		DEB6B7852C3EFFA700EDE285 /* Release */ = {
+		DEFB84282C40D6EF002BFB7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BodyTrackingExercise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HackTheMoose - Exercise App/Preview Content\"";
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Ur camera is needed cause we gotta see u pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -478,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +472,7 @@
 			};
 			name = Release;
 		};
-		DEB6B7872C3EFFA700EDE285 /* Debug */ = {
+		DEFB842A2C40D6EF002BFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -497,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExerciseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BodyTrackingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BodyTrackingExercise";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose - Exercise App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose - Exercise App";
 			};
 			name = Debug;
 		};
-		DEB6B7882C3EFFA700EDE285 /* Release */ = {
+		DEFB842B2C40D6EF002BFB7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExerciseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BodyTrackingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BodyTrackingExercise";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose - Exercise App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose - Exercise App";
 			};
 			name = Release;
 		};
-		DEB6B78A2C3EFFA700EDE285 /* Debug */ = {
+		DEFB842D2C40D6EF002BFB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,16 +521,16 @@
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExerciseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BodyTrackingExercise;
+				TEST_TARGET_NAME = "HackTheMoose - Exercise App";
 			};
 			name = Debug;
 		};
-		DEB6B78B2C3EFFA700EDE285 /* Release */ = {
+		DEFB842E2C40D6EF002BFB7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,55 +539,55 @@
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onKTun.BodyTrackingExerciseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cen10coders.HackTheMoose---Exercise-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BodyTrackingExercise;
+				TEST_TARGET_NAME = "HackTheMoose - Exercise App";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEB6B75A2C3EFFA500EDE285 /* Build configuration list for PBXProject "BodyTrackingExercise" */ = {
+		DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose - Exercise App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEB6B7812C3EFFA700EDE285 /* Debug */,
-				DEB6B7822C3EFFA700EDE285 /* Release */,
+				DEFB84242C40D6EF002BFB7E /* Debug */,
+				DEFB84252C40D6EF002BFB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB6B7832C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExercise" */ = {
+		DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEB6B7842C3EFFA700EDE285 /* Debug */,
-				DEB6B7852C3EFFA700EDE285 /* Release */,
+				DEFB84272C40D6EF002BFB7E /* Debug */,
+				DEFB84282C40D6EF002BFB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB6B7862C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExerciseTests" */ = {
+		DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEB6B7872C3EFFA700EDE285 /* Debug */,
-				DEB6B7882C3EFFA700EDE285 /* Release */,
+				DEFB842A2C40D6EF002BFB7E /* Debug */,
+				DEFB842B2C40D6EF002BFB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB6B7892C3EFFA700EDE285 /* Build configuration list for PBXNativeTarget "BodyTrackingExerciseUITests" */ = {
+		DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEB6B78A2C3EFFA700EDE285 /* Debug */,
-				DEB6B78B2C3EFFA700EDE285 /* Release */,
+				DEFB842D2C40D6EF002BFB7E /* Debug */,
+				DEFB842E2C40D6EF002BFB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEB6B7572C3EFFA500EDE285 /* Project object */;
+	rootObject = DEFB83FA2C40D6ED002BFB7E /* Project object */;
 }
