@@ -11,6 +11,7 @@
 		DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */; };
 		DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9627042C49CDD600E30352 /* SplashScreenView.swift */; };
 		DE96270E2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */; };
+		DE9627102C4A0C1900E30352 /* ExerciseSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */; };
 		DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */; };
 		DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84072C40D6ED002BFB7E /* ContentView.swift */; };
 		DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB84092C40D6EE002BFB7E /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewContainer.swift; sourceTree = "<group>"; };
 		DE9627042C49CDD600E30352 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = jumping_jacks_model_1.01.mlmodel; path = "../../ML Models/jumping_jacks_model_1.01.mlmodel"; sourceTree = "<group>"; };
+		DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionView.swift; sourceTree = "<group>"; };
 		DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheMoose_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheMoose_Exercise_App.swift; sourceTree = "<group>"; };
 		DEFB84072C40D6ED002BFB7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE9627112C4A0C2200E30352 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
+				DE9627042C49CDD600E30352 /* SplashScreenView.swift */,
+				DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DEFB83F92C40D6ED002BFB7E = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +114,13 @@
 		DEFB84042C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
 			isa = PBXGroup;
 			children = (
+				DE9627112C4A0C2200E30352 /* Views */,
 				DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */,
-				DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */,
+				DE9626C82C4521E400E30352 /* AVCaptureManager.swift */,
 				DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */,
-				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
-				DE9627042C49CDD600E30352 /* SplashScreenView.swift */,
+				DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */,
 				DEFB84092C40D6EE002BFB7E /* Assets.xcassets */,
 				DEFB840B2C40D6EE002BFB7E /* Preview Content */,
-				DE9626C82C4521E400E30352 /* AVCaptureManager.swift */,
 			);
 			path = "HackTheMoose - Exercise App";
 			sourceTree = "<group>";
@@ -274,6 +285,7 @@
 				DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */,
 				DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */,
 				DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */,
+				DE9627102C4A0C1900E30352 /* ExerciseSessionView.swift in Sources */,
 				DE9626C92C4521E400E30352 /* AVCaptureManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,8 +10,9 @@ struct HackTheMoose_Exercise: App {
     
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
-            ContentView()
+            //SplashScreenView()
+            //ContentView()
+            ExerciseSessionView()
         }
         
     }
