@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var isViewEnabled: Bool = false
     var body: some View {
         
-        /*
+        
         VStack {
             Text("Choose Your Exercise")
                 .foregroundColor(.black)
@@ -30,14 +30,14 @@ struct ContentView: View {
                 
             }
         }
-        */
+        
         
         
         
         
        
         
-        VideoPreviewSwiftView()
+    //    VideoPreviewSwiftView()
          
          
     }
