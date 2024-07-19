@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEFB84062C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */; };
+		DE9626C92C4521E400E30352 /* AVCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9626C82C4521E400E30352 /* AVCaptureManager.swift */; };
+		DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */; };
+		DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9627042C49CDD600E30352 /* SplashScreenView.swift */; };
+		DE96270E2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */; };
+		DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */; };
 		DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84072C40D6ED002BFB7E /* ContentView.swift */; };
 		DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB84092C40D6EE002BFB7E /* Assets.xcassets */; };
 		DEFB840D2C40D6EE002BFB7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */; };
@@ -34,14 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackTheMoose - Exercise App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppApp.swift"; sourceTree = "<group>"; };
+		DE9626C82C4521E400E30352 /* AVCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureManager.swift; sourceTree = "<group>"; };
+		DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewContainer.swift; sourceTree = "<group>"; };
+		DE9627042C49CDD600E30352 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = jumping_jacks_model_1.01.mlmodel; path = "../../ML Models/jumping_jacks_model_1.01.mlmodel"; sourceTree = "<group>"; };
+		DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheMoose_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheMoose_Exercise_App.swift; sourceTree = "<group>"; };
 		DEFB84072C40D6ED002BFB7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEFB84092C40D6EE002BFB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackTheMoose - Exercise AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB84122C40D6EF002BFB7E /* HackTheMoose_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackTheMoose_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFB84162C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppTests.swift"; sourceTree = "<group>"; };
-		DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackTheMoose - Exercise AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFB841C2C40D6EF002BFB7E /* HackTheMoose_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackTheMoose_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFB84202C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppUITests.swift"; sourceTree = "<group>"; };
 		DEFB84222C40D6EF002BFB7E /* HackTheMoose___Exercise_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HackTheMoose___Exercise_AppUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +92,9 @@
 		DEFB84032C40D6ED002BFB7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */,
-				DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */,
-				DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */,
+				DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */,
+				DEFB84122C40D6EF002BFB7E /* HackTheMoose_ExerciseTests.xctest */,
+				DEFB841C2C40D6EF002BFB7E /* HackTheMoose_ExerciseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +102,14 @@
 		DEFB84042C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
 			isa = PBXGroup;
 			children = (
-				DEFB84052C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift */,
+				DE96270D2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel */,
+				DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */,
+				DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */,
 				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
+				DE9627042C49CDD600E30352 /* SplashScreenView.swift */,
 				DEFB84092C40D6EE002BFB7E /* Assets.xcassets */,
 				DEFB840B2C40D6EE002BFB7E /* Preview Content */,
+				DE9626C82C4521E400E30352 /* AVCaptureManager.swift */,
 			);
 			path = "HackTheMoose - Exercise App";
 			sourceTree = "<group>";
@@ -130,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
+		DEFB84012C40D6ED002BFB7E /* HackTheMoose_Exercise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise App" */;
+			buildConfigurationList = DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_Exercise" */;
 			buildPhases = (
 				DEFB83FE2C40D6ED002BFB7E /* Sources */,
 				DEFB83FF2C40D6ED002BFB7E /* Frameworks */,
@@ -142,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = "HackTheMoose - Exercise App";
+			name = HackTheMoose_Exercise;
 			productName = "HackTheMoose - Exercise App";
-			productReference = DEFB84022C40D6ED002BFB7E /* HackTheMoose - Exercise App.app */;
+			productReference = DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEFB84112C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */ = {
+		DEFB84112C40D6EF002BFB7E /* HackTheMoose_ExerciseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppTests" */;
+			buildConfigurationList = DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_ExerciseTests" */;
 			buildPhases = (
 				DEFB840E2C40D6EF002BFB7E /* Sources */,
 				DEFB840F2C40D6EF002BFB7E /* Frameworks */,
@@ -160,14 +172,14 @@
 			dependencies = (
 				DEFB84142C40D6EF002BFB7E /* PBXTargetDependency */,
 			);
-			name = "HackTheMoose - Exercise AppTests";
+			name = HackTheMoose_ExerciseTests;
 			productName = "HackTheMoose - Exercise AppTests";
-			productReference = DEFB84122C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests.xctest */;
+			productReference = DEFB84122C40D6EF002BFB7E /* HackTheMoose_ExerciseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DEFB841B2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */ = {
+		DEFB841B2C40D6EF002BFB7E /* HackTheMoose_ExerciseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppUITests" */;
+			buildConfigurationList = DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_ExerciseUITests" */;
 			buildPhases = (
 				DEFB84182C40D6EF002BFB7E /* Sources */,
 				DEFB84192C40D6EF002BFB7E /* Frameworks */,
@@ -178,9 +190,9 @@
 			dependencies = (
 				DEFB841E2C40D6EF002BFB7E /* PBXTargetDependency */,
 			);
-			name = "HackTheMoose - Exercise AppUITests";
+			name = HackTheMoose_ExerciseUITests;
 			productName = "HackTheMoose - Exercise AppUITests";
-			productReference = DEFB841C2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests.xctest */;
+			productReference = DEFB841C2C40D6EF002BFB7E /* HackTheMoose_ExerciseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose - Exercise App" */;
+			buildConfigurationList = DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose_Exercise" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */,
-				DEFB84112C40D6EF002BFB7E /* HackTheMoose - Exercise AppTests */,
-				DEFB841B2C40D6EF002BFB7E /* HackTheMoose - Exercise AppUITests */,
+				DEFB84012C40D6ED002BFB7E /* HackTheMoose_Exercise */,
+				DEFB84112C40D6EF002BFB7E /* HackTheMoose_ExerciseTests */,
+				DEFB841B2C40D6EF002BFB7E /* HackTheMoose_ExerciseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE96270E2C49DE8700E30352 /* jumping_jacks_model_1.01.mlmodel in Sources */,
+				DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */,
 				DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */,
-				DEFB84062C40D6ED002BFB7E /* HackTheMoose___Exercise_AppApp.swift in Sources */,
+				DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */,
+				DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */,
+				DE9626C92C4521E400E30352 /* AVCaptureManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		DEFB84142C40D6EF002BFB7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */;
+			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose_Exercise */;
 			targetProxy = DEFB84132C40D6EF002BFB7E /* PBXContainerItemProxy */;
 		};
 		DEFB841E2C40D6EF002BFB7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose - Exercise App */;
+			target = DEFB84012C40D6ED002BFB7E /* HackTheMoose_Exercise */;
 			targetProxy = DEFB841D2C40D6EF002BFB7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,6 +441,7 @@
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera for recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +471,7 @@
 				DEVELOPMENT_TEAM = ZBS5RB5JK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera for recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose - Exercise App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose - Exercise App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose_Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose_Exercise";
 			};
 			name = Debug;
 		};
@@ -508,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose - Exercise App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose - Exercise App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackTheMoose_Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackTheMoose_Exercise";
 			};
 			name = Release;
 		};
@@ -551,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose - Exercise App" */ = {
+		DEFB83FD2C40D6ED002BFB7E /* Build configuration list for PBXProject "HackTheMoose_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFB84242C40D6EF002BFB7E /* Debug */,
@@ -560,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise App" */ = {
+		DEFB84262C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFB84272C40D6EF002BFB7E /* Debug */,
@@ -569,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppTests" */ = {
+		DEFB84292C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_ExerciseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFB842A2C40D6EF002BFB7E /* Debug */,
@@ -578,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose - Exercise AppUITests" */ = {
+		DEFB842C2C40D6EF002BFB7E /* Build configuration list for PBXNativeTarget "HackTheMoose_ExerciseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEFB842D2C40D6EF002BFB7E /* Debug */,
