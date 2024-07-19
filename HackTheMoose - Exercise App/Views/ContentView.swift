@@ -9,7 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct ContentView: View {
-    @State private var isViewEnabled: Bool = false
+    
     var body: some View {
         
         /*

@@ -41,7 +41,7 @@ struct VideoPreviewSwiftView: UIViewRepresentable {
         }
     
     init() {
-        self.session = AVCaptureManager.shared.captureSession
+        self.session = CaptureManager.shared.captureSession
         }
     
     func makeUIView(context: Context) -> VideoPreviewUIView {
@@ -50,7 +50,7 @@ struct VideoPreviewSwiftView: UIViewRepresentable {
         
         //starts capture when makingUIView
         DispatchQueue.global(qos: .userInitiated).async {
-            AVCaptureManager.shared.startCapture()
+            CaptureManager.shared.startCapture()
             
             DispatchQueue.main.async {
                 
@@ -68,7 +68,7 @@ struct VideoPreviewSwiftView: UIViewRepresentable {
     static func dismantleUIView(_ uiView: Self.UIViewType, coordinator: Self.Coordinator) {
         // Perform any cleanup necessary before the view is discarded
            
-        AVCaptureManager.shared.endCapture()
+        CaptureManager.shared.endCapture()
         print("Ending capture session and dismantling VideoPreviewSwiftUI")
         }
 

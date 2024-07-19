@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct ExerciseSessionView: View {
+    //rep variable
+    @State private var repCount: Int = 0;
     var body: some View {
         
         VStack {
-            Text("hello")
+            Text("reps " + "\(repCount)")
             
-            VideoPreviewSwiftView()
-                .edgesIgnoringSafeArea(.all)
+            Image(.dummyVideoPreview)
+                .resizable()
+                .ignoresSafeArea()
+                
+            Button("Start Prediction") {
+                let predictor = Predictor()
+                predictor.subscribeToPublisher()
+                
+            }
+                
+           //VideoPreviewSwiftView()
+                //.edgesIgnoringSafeArea(.all)
         }
         
         

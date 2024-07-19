@@ -7,20 +7,35 @@
 
 import Foundation
 import AVFoundation
+import Combine
 
-class AVCaptureManager{
+class CaptureManager {
     
     //singleton setup
-    static let shared = AVCaptureManager()
+    static let shared = CaptureManager()
     let captureSession: AVCaptureSession
+    let outputDelegate: OutputDelegate
+    let framePublisher: PassthroughSubject<CMSampleBuffer, Never>?
     
     private init(){
         // Create the capture session.
         captureSession = AVCaptureSession()
+        
+        // Create a new passthrough subject that publishes frames to subscribers.
+        framePublisher = PassthroughSubject<CMSampleBuffer, Never>()
+        
+        outputDelegate = OutputDelegate(framePublisher: framePublisher!)
+        
         setupCapture()
     }
     
-   
+    //setup publisher
+    func setupPublisher() -> Void{
+        
+        
+       
+    }
+    
     //setups the capture
     func setupCapture() -> Void {
         
@@ -33,6 +48,7 @@ class AVCaptureManager{
         // Find the default video device.
         guard let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: AVCaptureDevice.Position.front) else { return }
         
+
         do {
             // Wrap the video device in a capture device input.
             let videoInput = try AVCaptureDeviceInput(device: videoDevice)
@@ -47,6 +63,23 @@ class AVCaptureManager{
         }
         
         
+        //configure output
+        let output = AVCaptureVideoDataOutput()
+        
+        let pixelTypeKey = String(kCVPixelBufferPixelFormatTypeKey)
+        output.videoSettings = [pixelTypeKey: kCVPixelFormatType_32BGRA]
+        
+        // Discard newer frames if the app is busy with an earlier frame.
+        output.alwaysDiscardsLateVideoFrames = true
+        
+        let videoQueue = DispatchQueue(label: "videoQueue")
+        output.setSampleBufferDelegate(outputDelegate, queue: videoQueue)
+        
+        guard captureSession.canAddOutput(output) else {
+            print("Could not add output") ; return }
+        captureSession.addOutput(output)
+        
+        
         captureSession.commitConfiguration()
     
         
@@ -54,6 +87,7 @@ class AVCaptureManager{
     
     //start capture
     func startCapture() -> Void {
+        
         captureSession.startRunning()
     }
     
@@ -62,5 +96,6 @@ class AVCaptureManager{
         captureSession.stopRunning()
     }
 }
+
 
 
