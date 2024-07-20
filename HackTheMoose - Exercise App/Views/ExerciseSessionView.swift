@@ -27,94 +27,17 @@ struct ExerciseSessionView: View {
     
     var body: some View {
         
-        NavigationView{
-            ZStack {
-                // Image(.dummyVideoPreview)
-                //  .resizable()
-                // .ignoresSafeArea()
-                VideoPreviewSwiftView()
-                    .edgesIgnoringSafeArea(.all)
-                
-                
-                VStack {
-                    Text("Jumping Jacks")
-                        .frame(width: 300)
-                        .clipped()
-                        .font(.title)
-                        .padding(5)
-                        .background {
-                            RoundedRectangle(cornerRadius: 15, style: .continuous)
-                                .fill(Color(.tertiaryLabel))
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .clipped()
-                        }
-                    Text("Time: " + stopwatchViewModel.formattedElapsedTime())
-                        .onAppear{
-                            self.stopwatchViewModel.resetTime()
-                        }
-                        .frame(width: 250)
-                        .clipped()
-                        .font(.title2)
-                        .padding(5)
-                        .background {
-                            RoundedRectangle(cornerRadius: 15, style: .continuous)
-                                .fill(Color(.tertiaryLabel))
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .clipped()
-                        }
-                    Text("Repititions: \(outputSubscriber.repCount)")
-                        .frame(width: 250)
-                        .clipped()
-                        .font(.title2)
-                        .padding(5)
-                        .background {
-                            RoundedRectangle(cornerRadius: 15, style: .continuous)
-                                .fill(Color(.tertiaryLabel))
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .clipped()
-                        }
-                        .onAppear{
-                            self.outputSubscriber.repCount = 0
-                        }
-                    
-                    
-                    //for debug
-                    Text("Prediction: \(outputSubscriber.receivedMessage)")
-                        .frame(width: 250)
-                        .clipped()
-                        .font(.title2)
-                        .padding(5)
-                        .background {
-                            RoundedRectangle(cornerRadius: 15, style: .continuous)
-                                .fill(Color(.tertiaryLabel))
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .clipped()
-                        }
-                    
-                    
-                    
-                    Spacer()
-                    
-                    NavigationLink(destination: MainMenuView()){
-                    Button(startButtonText){
-                        if !isTraining{
-                            
-                            self.stopwatchViewModel.startStop()
-                            //button logic
-                            let predictor = Predictor()
-                            predictor.subscribeToFramePublisher()
-                            
-                            outputSubscriber.subscribe(to: predictor)
-                            
-                            //startButtonText = "End Exercise"
-                        }
-                       
-                        }
-                       
-                        //NavigationLink(destination: ExerciseEndView(formattedTime: stopwatchViewModel.formattedElapsedTime(), repCount: outputSubscriber.repCount, timeSeconds: Int(stopwatchViewModel.elapsedTime) % 60), isActive: $isEnded)
-                        
-                        
-                    }
+        
+        ZStack {
+            // Image(.dummyVideoPreview)
+            //  .resizable()
+            // .ignoresSafeArea()
+            VideoPreviewSwiftView()
+                .edgesIgnoringSafeArea(.all)
+            
+            
+            VStack {
+                Text("Jumping Jacks")
                     .frame(width: 300)
                     .clipped()
                     .font(.title)
@@ -125,24 +48,94 @@ struct ExerciseSessionView: View {
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                             .clipped()
                     }
+                Text("Time: " + stopwatchViewModel.formattedElapsedTime())
+                    
+                    .frame(width: 250)
+                    .clipped()
+                    .font(.title2)
+                    .padding(5)
+                    .background {
+                        RoundedRectangle(cornerRadius: 15, style: .continuous)
+                            .fill(Color(.tertiaryLabel))
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .clipped()
+                    }
+                Text("Repititions: \(outputSubscriber.repCount)")
+                    .frame(width: 250)
+                    .clipped()
+                    .font(.title2)
+                    .padding(5)
+                    .background {
+                        RoundedRectangle(cornerRadius: 15, style: .continuous)
+                            .fill(Color(.tertiaryLabel))
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .clipped()
+                    }
+                    
+                
+                
+                //for debug
+                Text("Prediction: \(outputSubscriber.receivedMessage)")
+                    .frame(width: 250)
+                    .clipped()
+                    .font(.title2)
+                    .padding(5)
+                    .background {
+                        RoundedRectangle(cornerRadius: 15, style: .continuous)
+                            .fill(Color(.tertiaryLabel))
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .clipped()
+                    }
+                
+                
+                
+                Spacer()
+                
+                
+                Button(startButtonText){
+                    self.stopwatchViewModel.startStop()
+                    //button logic
+                    let predictor = Predictor()
+                    predictor.subscribeToFramePublisher()
+                    
+                    outputSubscriber.subscribe(to: predictor)
+                    //startButtonText = "End Exercise"
                 }
-                .padding(.vertical, 30)
-                .frame(maxHeight: .infinity, alignment: .top)
+                .frame(width: 300)
                 .clipped()
+                .font(.title)
+                .padding(5)
+                .background {
+                    RoundedRectangle(cornerRadius: 15, style: .continuous)
+                        .fill(Color(.tertiaryLabel))
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .clipped()
+                }
+                
+                
+                
+                //NavigationLink(destination: ExerciseEndView(formattedTime: stopwatchViewModel.formattedElapsedTime(), repCount: outputSubscriber.repCount, timeSeconds: Int(stopwatchViewModel.elapsedTime) % 60), isActive: $isEnded)
+                
+                
             }
-            .foregroundColor(.white)
             
         }
-        
-        //
-       
-            
+        //.padding(.vertical, 30)
+        //.frame(maxHeight: .infinity, alignment: .top)
+        //.clipped()
+        .foregroundColor(.white)
         
     }
+    
+    
+}
+            
+        
+    
    
   
        
-}
+
 /*
 #Preview {
     ExerciseSessionView()

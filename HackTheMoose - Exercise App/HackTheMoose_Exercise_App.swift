@@ -12,7 +12,7 @@ struct HackTheMoose_Exercise: App {
         WindowGroup {
             SplashScreenView()
        
-           // ExerciseSessionView()
+           //`ExerciseSessionView()
         }
         
     }
