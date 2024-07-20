@@ -21,8 +21,8 @@
 		DEF17ADC2C4B34A80044ECBB /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17ADB2C4B34A80044ECBB /* Timer.swift */; };
 		DEF17ADE2C4B3A590044ECBB /* PredictionSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17ADD2C4B3A590044ECBB /* PredictionSubscriber.swift */; };
 		DEF17AE22C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DEF17AE12C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage */; };
+		DEF17AE52C4B5EE70044ECBB /* ExerciseEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17AE42C4B5EE70044ECBB /* ExerciseEndView.swift */; };
 		DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */; };
-		DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84072C40D6ED002BFB7E /* ContentView.swift */; };
 		DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB84092C40D6EE002BFB7E /* Assets.xcassets */; };
 		DEFB840D2C40D6EE002BFB7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */; };
 		DEFB84172C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84162C40D6EF002BFB7E /* HackTheMoose___Exercise_AppTests.swift */; };
@@ -62,9 +62,9 @@
 		DEF17ADB2C4B34A80044ECBB /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		DEF17ADD2C4B3A590044ECBB /* PredictionSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionSubscriber.swift; sourceTree = "<group>"; };
 		DEF17AE12C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = jumping_jacks_model_1.01.mlpackage; path = ../../../../jumping_jacks_model_1.01.mlpackage; sourceTree = "<group>"; };
+		DEF17AE42C4B5EE70044ECBB /* ExerciseEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEndView.swift; sourceTree = "<group>"; };
 		DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheMoose_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheMoose_Exercise_App.swift; sourceTree = "<group>"; };
-		DEFB84072C40D6ED002BFB7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEFB84092C40D6EE002BFB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEFB840C2C40D6EE002BFB7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEFB84122C40D6EF002BFB7E /* HackTheMoose_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackTheMoose_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,11 +102,11 @@
 		DE9627112C4A0C2200E30352 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
 				DE9627042C49CDD600E30352 /* SplashScreenView.swift */,
 				DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */,
 				DEF17AD62C4B2A0B0044ECBB /* HelpMenuView.swift */,
 				DEF17AD72C4B2A0B0044ECBB /* MainMenuView.swift */,
+				DEF17AE42C4B5EE70044ECBB /* ExerciseEndView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,10 +330,10 @@
 				DEF17ADC2C4B34A80044ECBB /* Timer.swift in Sources */,
 				DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */,
 				DE96271A2C4A64EE00E30352 /* OutputDelegate.swift in Sources */,
-				DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */,
 				DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */,
 				DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */,
 				DEF17AD92C4B2A0B0044ECBB /* MainMenuView.swift in Sources */,
+				DEF17AE52C4B5EE70044ECBB /* ExerciseEndView.swift in Sources */,
 				DE9627102C4A0C1900E30352 /* ExerciseSessionView.swift in Sources */,
 				DE96271E2C4AC55900E30352 /* Pose.swift in Sources */,
 				DE9627202C4AC76A00E30352 /* ModelExtension.swift in Sources */,

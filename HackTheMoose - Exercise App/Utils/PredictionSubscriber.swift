@@ -15,6 +15,9 @@ class PredictionSubscriber: ObservableObject {
     var repCount : Int = 0
     private var lastState : String = "other"
     
+    
+   
+    
     // Function to subscribe to the publisher
     func subscribe(to publisher: Predictor) {
         

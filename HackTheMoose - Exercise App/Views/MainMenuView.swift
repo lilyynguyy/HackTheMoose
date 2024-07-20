@@ -12,6 +12,80 @@ struct MainMenuView: View {
     @State private var isViewEnabled: Bool = false
 
     var body: some View {
+        
+        NavigationView{
+            ScrollView {
+                VStack {
+                    Image(.logo)
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 120)
+                        .clipped()
+                    Text("Welcome to Proactive")
+                        .font(.system(.largeTitle, weight: .bold))
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .clipped()
+                        .padding(.leading)
+                        .padding(.bottom, 8)
+                    Text("Choose an exercise")
+                        .font(.title)
+                        .padding(7)
+                    Spacer()
+                        .frame(height: .infinity)
+                        .clipped()
+                    
+                    NavigationLink(destination: ExerciseSessionView()){
+                        Text("Jumping Jacks")
+                            .font(.title2)
+                            .foregroundColor(.black)
+                            .padding(7)
+                            .background {
+                                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                    .fill(Color(.quaternaryLabel))
+                            }
+                    }
+                }
+                .frame(maxWidth: .infinity)
+                .clipped()
+                .padding(.top)
+            }
+            .overlay(alignment: .top) {
+                Group {
+                    
+                }
+            }
+            .overlay(alignment: .bottom) {
+                // Tab Bar
+                VStack(spacing: 0) {
+                    Divider()
+                    NavigationLink(destination: HelpMenuView()){
+                        Text("Help")
+                            .font(.title2)
+                            .foregroundColor(.black)
+                            .padding(7)
+                            .padding(.horizontal, 20)
+                            .background {
+                                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                    .fill(Color(.quaternaryLabel))
+                            }
+                            .padding(.horizontal, 15)
+                            .padding(.top, 20)
+                    }
+                   
+                }
+                .frame(height: 84, alignment: .top)
+                .clipped()
+                .background {
+                    Rectangle()
+                        .fill(.clear)
+                        .background(Material.bar)
+                }
+            }
+        }
+        
+        /*
+        
         NavigationView{
             VStack {
                 NavigationLink(destination: HelpMenuView()){
@@ -35,6 +109,7 @@ struct MainMenuView: View {
                 Image(.logo).offset(x:0, y:80)
             }
         }
+         */
     }
 }
 

@@ -15,17 +15,20 @@ struct SplashScreenView: View {
     // Customise your SplashScreen here
     var body: some View {
         if isActive {
-            ContentView()
+            MainMenuView()
         } else {
-            VStack {
+            VStack{
+                Spacer()
+                    .frame(height: 200)
                 VStack(spacing:-100) {
                     Image(.logo)
                         .font(.system(size: 80))
                         .foregroundColor(.red)
+                        .padding(.vertical, 40)
                             
                     Text("Proactive")
-                        .font(.system(size:50, design: .monospaced))
-                        .foregroundColor(.black.opacity(0.80))
+                        .font(.system(size:50))
+                        
                 }
                 .scaleEffect(size)
                 .opacity(opacity)
@@ -36,6 +39,9 @@ struct SplashScreenView: View {
                     }
                 }
             }
+            .frame(maxHeight: .infinity,alignment: .top)
+                
+            
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {

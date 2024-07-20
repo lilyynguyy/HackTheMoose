@@ -38,6 +38,15 @@ class StopwatchViewModel: ObservableObject {
             })
         }
     }
+    func resetTime(){
+        if let timer = stopwatchTimer {
+            timer.invalidate()
+            stopwatchTimer = nil
+        }
+        
+        elapsedTime = 0
+        
+    }
     
     func formattedElapsedTime() -> String {
         // Format the elapsed time as a stopwatch time
