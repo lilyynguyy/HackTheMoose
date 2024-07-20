@@ -11,12 +11,16 @@
 		DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */; };
 		DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9627042C49CDD600E30352 /* SplashScreenView.swift */; };
 		DE9627102C4A0C1900E30352 /* ExerciseSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */; };
-		DE9627142C4A205F00E30352 /* jumping_jacks_model_1.01.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE9627132C4A202800E30352 /* jumping_jacks_model_1.01.mlmodel */; };
 		DE96271A2C4A64EE00E30352 /* OutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9627192C4A64EE00E30352 /* OutputDelegate.swift */; };
 		DE96271C2C4A694D00E30352 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96271B2C4A694D00E30352 /* Predictor.swift */; };
 		DE96271E2C4AC55900E30352 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96271D2C4AC55900E30352 /* Pose.swift */; };
 		DE9627202C4AC76A00E30352 /* ModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96271F2C4AC76A00E30352 /* ModelExtension.swift */; };
 		DE9627222C4AD04200E30352 /* ActionPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9627212C4AD04200E30352 /* ActionPrediction.swift */; };
+		DEF17AD82C4B2A0B0044ECBB /* HelpMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17AD62C4B2A0B0044ECBB /* HelpMenuView.swift */; };
+		DEF17AD92C4B2A0B0044ECBB /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17AD72C4B2A0B0044ECBB /* MainMenuView.swift */; };
+		DEF17ADC2C4B34A80044ECBB /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17ADB2C4B34A80044ECBB /* Timer.swift */; };
+		DEF17ADE2C4B3A590044ECBB /* PredictionSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF17ADD2C4B3A590044ECBB /* PredictionSubscriber.swift */; };
+		DEF17AE22C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DEF17AE12C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage */; };
 		DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */; };
 		DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFB84072C40D6ED002BFB7E /* ContentView.swift */; };
 		DEFB840A2C40D6EE002BFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFB84092C40D6EE002BFB7E /* Assets.xcassets */; };
@@ -48,12 +52,16 @@
 		DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewContainer.swift; sourceTree = "<group>"; };
 		DE9627042C49CDD600E30352 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionView.swift; sourceTree = "<group>"; };
-		DE9627132C4A202800E30352 /* jumping_jacks_model_1.01.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = jumping_jacks_model_1.01.mlmodel; sourceTree = "<group>"; };
 		DE9627192C4A64EE00E30352 /* OutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputDelegate.swift; sourceTree = "<group>"; };
 		DE96271B2C4A694D00E30352 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		DE96271D2C4AC55900E30352 /* Pose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
 		DE96271F2C4AC76A00E30352 /* ModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtension.swift; sourceTree = "<group>"; };
 		DE9627212C4AD04200E30352 /* ActionPrediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionPrediction.swift; path = "../../../../../../Downloads/DetectingHumanActionsInALiveVideoFeed/GuessMyExercise/Action Classifier/ActionPrediction.swift"; sourceTree = "<group>"; };
+		DEF17AD62C4B2A0B0044ECBB /* HelpMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpMenuView.swift; sourceTree = "<group>"; };
+		DEF17AD72C4B2A0B0044ECBB /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		DEF17ADB2C4B34A80044ECBB /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		DEF17ADD2C4B3A590044ECBB /* PredictionSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionSubscriber.swift; sourceTree = "<group>"; };
+		DEF17AE12C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = jumping_jacks_model_1.01.mlpackage; path = ../../../../jumping_jacks_model_1.01.mlpackage; sourceTree = "<group>"; };
 		DEFB84022C40D6ED002BFB7E /* HackTheMoose_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheMoose_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTheMoose_Exercise_App.swift; sourceTree = "<group>"; };
 		DEFB84072C40D6ED002BFB7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,8 @@
 				DEFB84072C40D6ED002BFB7E /* ContentView.swift */,
 				DE9627042C49CDD600E30352 /* SplashScreenView.swift */,
 				DE96270F2C4A0C1900E30352 /* ExerciseSessionView.swift */,
+				DEF17AD62C4B2A0B0044ECBB /* HelpMenuView.swift */,
+				DEF17AD72C4B2A0B0044ECBB /* MainMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,11 +114,25 @@
 		DE9627122C4A200C00E30352 /* Exercise ML Model */ = {
 			isa = PBXGroup;
 			children = (
+				DE96271D2C4AC55900E30352 /* Pose.swift */,
+				DE96271B2C4A694D00E30352 /* Predictor.swift */,
 				DE9627212C4AD04200E30352 /* ActionPrediction.swift */,
-				DE9627132C4A202800E30352 /* jumping_jacks_model_1.01.mlmodel */,
+				DEF17AE12C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage */,
 				DE96271F2C4AC76A00E30352 /* ModelExtension.swift */,
 			);
 			path = "Exercise ML Model";
+			sourceTree = "<group>";
+		};
+		DEF17ADA2C4B34850044ECBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE9626C82C4521E400E30352 /* CaptureManager.swift */,
+				DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */,
+				DE9627192C4A64EE00E30352 /* OutputDelegate.swift */,
+				DEF17ADB2C4B34A80044ECBB /* Timer.swift */,
+				DEF17ADD2C4B3A590044ECBB /* PredictionSubscriber.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		DEFB83F92C40D6ED002BFB7E = {
@@ -134,16 +158,12 @@
 		DEFB84042C40D6ED002BFB7E /* HackTheMoose - Exercise App */ = {
 			isa = PBXGroup;
 			children = (
+				DEF17ADA2C4B34850044ECBB /* Utils */,
 				DE9627122C4A200C00E30352 /* Exercise ML Model */,
 				DE9627112C4A0C2200E30352 /* Views */,
-				DE9626C82C4521E400E30352 /* CaptureManager.swift */,
 				DEFB84052C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift */,
-				DE9626CA2C4788A400E30352 /* VideoPreviewContainer.swift */,
 				DEFB84092C40D6EE002BFB7E /* Assets.xcassets */,
 				DEFB840B2C40D6EE002BFB7E /* Preview Content */,
-				DE9627192C4A64EE00E30352 /* OutputDelegate.swift */,
-				DE96271B2C4A694D00E30352 /* Predictor.swift */,
-				DE96271D2C4AC55900E30352 /* Pose.swift */,
 			);
 			path = "HackTheMoose - Exercise App";
 			sourceTree = "<group>";
@@ -304,17 +324,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9627222C4AD04200E30352 /* ActionPrediction.swift in Sources */,
+				DEF17AE22C4B48AD0044ECBB /* jumping_jacks_model_1.01.mlpackage in Sources */,
+				DEF17AD82C4B2A0B0044ECBB /* HelpMenuView.swift in Sources */,
 				DE96271C2C4A694D00E30352 /* Predictor.swift in Sources */,
+				DEF17ADC2C4B34A80044ECBB /* Timer.swift in Sources */,
 				DE9626CB2C4788A400E30352 /* VideoPreviewContainer.swift in Sources */,
 				DE96271A2C4A64EE00E30352 /* OutputDelegate.swift in Sources */,
 				DEFB84082C40D6ED002BFB7E /* ContentView.swift in Sources */,
 				DE9627072C49CDD600E30352 /* SplashScreenView.swift in Sources */,
 				DEFB84062C40D6ED002BFB7E /* HackTheMoose_Exercise_App.swift in Sources */,
+				DEF17AD92C4B2A0B0044ECBB /* MainMenuView.swift in Sources */,
 				DE9627102C4A0C1900E30352 /* ExerciseSessionView.swift in Sources */,
 				DE96271E2C4AC55900E30352 /* Pose.swift in Sources */,
 				DE9627202C4AC76A00E30352 /* ModelExtension.swift in Sources */,
-				DE9627142C4A205F00E30352 /* jumping_jacks_model_1.01.mlmodel in Sources */,
 				DE9626C92C4521E400E30352 /* CaptureManager.swift in Sources */,
+				DEF17ADE2C4B3A590044ECBB /* PredictionSubscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

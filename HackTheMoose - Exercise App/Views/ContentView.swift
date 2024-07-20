@@ -9,10 +9,11 @@ import SwiftUI
 import AVFoundation
 
 struct ContentView: View {
-    
+    @ObservedObject var stopwatchViewModel = StopwatchViewModel()
+
     var body: some View {
         
-        
+        /*
         VStack {
             Text("Choose Your Exercise")
                 .foregroundColor(.black)
@@ -30,8 +31,17 @@ struct ContentView: View {
                 
             }
         }
-        
-        
+        */
+        // Label to display the stopwatch time
+                    Text(stopwatchViewModel.formattedElapsedTime())
+                        .font(.largeTitle)
+                    
+                    // Button to start and stop the stopwatch
+                    Button(action: {
+                        self.stopwatchViewModel.startStop()
+                    }) {
+                        Text(stopwatchViewModel.stopwatchTimer == nil ? "Start" : "Stop")
+                    }
         
         
         

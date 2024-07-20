@@ -18,6 +18,9 @@ class Predictor{
     
     var subscriber: AnyCancellable?
     
+    let predictionOutSubject = PassthroughSubject<String, Never>()
+    
+    
     let humanBodyPoseRequest = VNDetectHumanBodyPoseRequest()
     
     /// The number of pose data instances the action classifier needs
@@ -40,7 +43,7 @@ class Predictor{
         predictionWindowSize = jumping_jacks_model_1_01.shared.calculatePredictionWindowSize()
     }
     
-    func subscribeToPublisher() {
+    func subscribeToFramePublisher() {
         subscriber = CaptureManager.shared.framePublisher?.sink(receiveValue: processFrame)
     }
     func processFrame(_ sampleBuffer: CMSampleBuffer){
@@ -56,6 +59,7 @@ class Predictor{
         
         if gateWindow(window) {
             var prediction = predictActionWithWindow(window)
+            predictionOutSubject.send(prediction.label)
             print("Prediction is " + prediction.label)
         }
         
